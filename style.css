@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+body {
+  font-family: "Playfair Display", serif !important;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #824322 !important;
+}
+
+.services img {
+  height: 280px;
+  width: 273px;
+  object-fit: cover;
+}
+.services h4,
+.result h4,
+.YT-video h4 {
+  font-size: 15px;
+  margin: 1rem;
+}
+
+.result img {
+  width: 25rem;
+}
+
+.consult {
+  background: url(assets/Lp.jpg);
+  background-size: contain;
+}
+
+.Rcard {
+  box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.5);
+  --e-column-margin-right: 2em;
+  --e-column-margin-left: 2em;
+  height: 23rem;
+  width: 21rem;
+  border-radius: 20px;
+}
+.RB {
+  position: relative;
+  bottom: 2rem;
+}
+.accordion-item .accordion-button {
+  border: none;
+  background: #f8f9fa;
+}
+
+.header_btn {
+  background: #c78853;
+  border: 1px solid #c78853;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: transform 0.75s;
+  border-radius: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* padding: 20px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.footer1 {
+  background: url("./Images/footer-bg.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.footer2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form textarea {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 20rem;
+}
+
+/* ---------------- utility classes ---------------- */
+.bgHeader {
+  background: #824322;
+}
+
+.list-none {
+  list-style: none;
+  font-weight: 400;
+}
+
+@media (max-width: 426px) {
+  .SHEDULE_A_CONSULT button {
+    font-size: 10px !important;
+    padding: 9px 16px;
+  }
+  .result img {
+    width: 17rem;
+  }
+  .foot-con {
+    width: 75%;
+  }
+  .PHOTO_ASSESMENT {
+    font-size: 10px !important;
+    padding: 9px 16px;
+  }
+
+  form ul li input[type="text"] {
+    /* width: 325px; */
+  }
+
+  form ul li input[type="email"] {
+    /* width: 325px; */
+  }
+
+  form ul li input[type="number"] {
+    /* width: 325px; */
+  }
+
+  form ul li textarea {
+    /* width: 320px; */
+  }
+  .footer {
+    width: max-content;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 768px) {
+  .SHEDULE_A_CONSULT button {
+    font-size: 11px !important;
+  }
+
+  .PHOTO_ASSESMENT {
+    font-size: 11px !important;
+  }
+
+  form ul li input[type="text"] {
+    width: 325px;
+  }
+
+  form ul li input[type="email"] {
+    width: 325px;
+  }
+
+  form ul li input[type="number"] {
+    width: 325px;
+  }
+
+  form ul li textarea {
+    width: 320px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .SHEDULE_A_CONSULT button {
+    font-size: 11px;
+    padding: 8px 16px !important;
+  }
+
+  .PHOTO_ASSESMENT {
+    font-size: 11px;
+    padding: 8px 16px !important;
+  }
+
+  form ul li input[type="text"] {
+    width: 325px;
+  }
+
+  form ul li input[type="email"] {
+    width: 325px;
+  }
+
+  form ul li input[type="number"] {
+    width: 325px;
+  }
+
+  form ul li textarea {
+    width: 320px;
+  }
+}
+
+.footer {
+  background-color: #36312e;
+}
+
+.consult form button {
+  background: #ffffff00;
+  border: 1px solid #c78853;
+}
+.consult form button:hover {
+  background: #c78853;
+  border: 1px solid #c78853;
+  color: #fff;
+}
+.cburm,
+.neb {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.neb a {
+  text-decoration: none;
+  color: white;
+}
+.neb a:hover {
+  color: #fff8f1;
+}
+
+/* CSS */
+.button-71 {
+  background-color: #c78853;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, "Segoe UI", Roboto, Ubuntu,
+    "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s;
+  width: 92%;
+}
+
+.button-71:hover {
+  box-shadow: rgba(255, 255, 255, 0.2) 0 3px 15px inset,
+    rgba(0, 0, 0, 0.1) 0 3px 5px, rgba(0, 0, 0, 0.1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+}

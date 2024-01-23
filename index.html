@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body style="overflow-x: hidden;">
+    <!-- Header -->
+    <div class="container-fluid bgHeader">
+        <div class="cburm d-none row py-3 d-md-flex align-itmes-center gap-2 justify-content-lg-between">
+            <div class="col-lg-4 d-none d-lg-flex">
+                <img src="assets/Satya-Final-logo-Charcoal.png" height="20" width="20%" alt="" class="img-fluid mx-5"
+                    style="filter: invert(1);" />
+            </div>
+            <div class="col-lg-auto d-flex mx-5 col-12">
+                <div class="row d-flex align-items-center justify-content-around">
+
+                    <div class="SHEDULE_A_CONSULT col-lg-auto col-6 d-flex justify-content-end align-items-center">
+                        <button class="button-71 text-light header_btn px-sm-4 py-sm-3 px-2 py-1">
+                            SCHEDULE A CONSULT
+                        </button>
+                    </div>
+                    <div class="col-3 d-lg-flex d-none justify-content-center align-items-center">
+                        <button class="button-71 text-light header_btn px-3 py-3 PHOTO_ASSESMENT text-nowrap">
+                            PHOTO ASSESMENT
+                        </button>
+                    </div>
+                    <div class="col-auto d-lg-flex d-none justify-content-center align-items-center">
+                        <i class="fa-solid fa-magnifying-glass text-light fs-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary bgHeader"> -->
+        <!-- <div class="container-fluid"> -->
+        <div class="row" style="width: -webkit-fill-available">
+            <div class="col-lg-4 col-12 d-flex d-lg-none justify-content-between align-items-center"
+                style="background-color: #36312E;">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/Satya-Final-logo-Bamboo.png" alt="" width="90px" class="img-fluid" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"
+                    style="background-color: transparent !important">
+                    <span class="navbar-toggler-icon" style="background-color: transform"></span>
+                </button>
+            </div>
+            <div class="col-6 d-lg-none d-lg-flex">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ABOUT
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                HAIR TANSPLANT
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PHYSICIAN CONSULTS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                ROUBOTIC FUE
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PHYSICIAN CONSULTS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex" role="search">
+                      <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                      <button class="btn btn-outline-success" type="submit">
+                        Search
+                      </button>
+                    </form> -->
+                </div>
+            </div>
+            <div class="neb col-12 d-none d-lg-flex justify-content-center text-light gap-5 pt-2">
+                <a href="#about">
+                    About
+                </a>
+                <a href="#services">Services</a>
+                <a href="#result">Results</a>
+                <a href="#consult">Consult</a>
+                <a href="#review">Reviews</a>
+                <a href="#video">Videos</a>
+                <a href="#faq">FAQs</a>
+            </div>
+            <div class="Hero_section bgHeader">
+                <div class="row row1" id="" style="margin: 10px auto;">
+                    <div
+                        class="col-lg-6 col-12 text-light  text-center d-flex justify-content-center align-items-center flex-column">
+                        <h2 style="font-weight: 300;" class=" text-white">The Trusted Name <br>
+                            in Hair Restoration</h2>
+                        <p>We diagnose and treat hair loss in <br>
+                            men and women using the <em>most advanced technologies</em></p>
+                    </div>
+                    <div class="col-lg-6 col-12 text-center my-3 d-flex justify-content-center align-items-center">
+                        <div class="Hero_video"
+                            style="  height: 300px; width:500px; box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; ">
+                            <video class="object-fit-cover" height="300px" width="400px" autoplay>
+                                <source src="assets/MVI_9766.MP4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-6 d-flex justify-content-center align-items-center gap-3 gap-md-5">
+                        <button
+                            class="button-71 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1">SHEDULE
+                            A
+                            CONSULTAION</button>
+                        <button
+                            class="button-71 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1 d-none d-md-flex">ABOUT
+                            US</button>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-around " id="about">
+                    <div class="col-md-6 text-center"><img src="assets/IMG_8687_prev_ui.png" alt=""
+                            style="width:100%; min-width:300px;"></div>
+                    <div class="col-md-6 ">
+                        <div class="col-md-12 text-light order-first order-md-0 text-center">
+                            <h1 style="font-weight: 300;">Meet Our <br>
+                                Renowned Physicians</h3>
+                        </div>
+                        <div class="row mt-5 pt-5">
+                            <div class="col-md-6 text-light py-3">
+                                <ul>
+                                    <li style="list-style: none;"><strong> Dr. Shaiil Gupta,</strong> <em>Medical
+                                            Director</em>
+                                    </li>
+                                    <li>Board-certified dermatologist</li>
+                                    <li>Mohs micrographic surgeon</li>
+                                    <li>M.I.T., Yale University</li>
+                                    <li>Alpha Omega Alpha (AOA) honors</li>
+                                    <li>FUT and Robotic FUE</li>
+                                    <!-- <div class="text-center my-2"><a href="">READ MORE</a></div> -->
+
+                                </ul>
+                            </div>
+                            <div class="col-md-6 text-light py-3">
+                                <ul>
+                                    <li style="list-style: none;"><strong> Dr. Ruchi Agarwal,</strong> <em>Founder</em>
+                                    </li>
+                                    <li>Pioneering hair transplant surgeon</li>
+                                    <li>Clinical Professor of Dermatology at Columbia University</li>
+                                    <li>Keen aesthetics and exceptional surgical skills</li>
+                                    <!-- <div class="text-center my-2"><a href="">READ MORE</a></div> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+    <div class="container mb-4" id="services">
+        <div class="row services text-center">
+            <h2 class="my-4">Our Hair Restoration Services​</h2>
+            <div class="col-md-3">
+                <img src="assets/IMG_0006.JPG" alt="">
+                <h4>Robotic Hair Restoration (R-FUE)</h4>
+            </div>
+            <div class="col-md-3">
+                <img src="assets/back .jpg" alt="">
+                <h4>Robotic Hair Restoration (R-FUE)</h4>
+            </div>
+            <div class="col-md-3">
+                <img src="assets/IMG_0300.JPG" alt="">
+                <h4>Robotic Hair Restoration (R-FUE)</h4>
+            </div>
+            <div class="col-md-3">
+                <img src="assets/IMG_7250.JPG" alt="">
+                <h4>Robotic Hair Restoration (R-FUE)</h4>
+            </div>
+        </div>
+    </div>
+    <!-- Result -->
+    <div class="bg-light" id="result">
+        <div class="container bg-light">
+            <div class="row result text-center">
+                <h2 class="my-4">Before & After</h2>
+                <div class="col-md-4">
+                    <img src="assets/result/WhatsApp-Image-2023-11-04-at-11.46.30.jpg" alt="">
+                    <h4>Patient ANJ</h4>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/result/WhatsApp-Image-2023-11-04-at-13.30.58.jpg" alt="">
+                    <h4>Patient ANJ</h4>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/result/WhatsApp-Image-2023-11-04-at-13.29.35.jpg" alt="">
+                    <h4>Patient ANJ</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Form -->
+    <div class="consult" id="consult">
+        <div class="container" style="width: 65%;">
+            <div class="row">
+                <div
+                    class="col-md-6 d-flex justify-content-center align-items-start flex-column text-start text-white gap-4">
+                    <h3>Get in Touch</h3>
+                    <h1>Request A <br> Consultation</h1>
+                </div>
+                <div class="col-md-6 text-white my-5">
+                    <form action="">
+                        <ul class="d-flex justify-content-center align-items-end flex-column">
+                            <li class="my-3 list-none ">Name <span class="text-danger">*</span> <input type="text">
+                            </li>
+                            <li class="my-3 list-none ">Email <span class="text-danger">*</span> <input type="email">
+                            </li>
+                            <li class="my-3 list-none ">Phone <span class="text-danger">*</span> <input type="number">
+                            </li>
+                            <li class="my-3 list-none">Comment <span class="text-danger">*</span> <textarea name=""
+                                    id="" cols="30" rows="3"></textarea></li>
+                            <div class=" my-3"> <button class="btn btn-outline-light " style="
+              border-radius: 20px;">SEND</button></div>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- reviews -->
+    <div class="bg-light" id="review">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="my-5">What our Patients are Saying​</h2>
+                <div class="col-md-4 d-flex justify-content-center align-items-center p-5">
+                    <div class="Rcard">
+                        <div><img src="assets/google-1-q3z5wh6x5unjky9dhaah690wzl3vtasin1r71b5z40.png" class="RB"
+                                alt=""></div>
+                        <div><img src="assets/5-stars-150x37.png" alt=""></div>
+                        <div class="px-4 text-justify">
+                            <p>Dr. Shaver was wonderful in helping with the approach of hair regrowth. Talking to her
+                                made the decision process easy for next steps and understanding what was right to do. I
+                                would highly recommend to anyone and thank you Dr. Shaver!</p>
+                        </div>
+                        <div><span class="text-primary">D.A.</span></div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center p-5">
+                    <div class="Rcard">
+                        <div><img src="assets/letter-q3z5wh6x5unjky9dhaah690wzl3vtasin1r71b5z40.png" class="RB" alt="">
+                        </div>
+                        <div><img src="assets/5-stars-150x37.png" alt=""></div>
+                        <div class="px-4 text-justify">
+                            <p>From professional hair stylists to plastic surgeons: Anyone who has seen the work Dr.
+                                has done is very impressed. This is hands down the best place to come to for
+                                your treatment. It’s actually true what everyone here is saying!</p>
+                        </div>
+                        <div><span class="text-primary">M.R.</span></div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center align-items-center p-5">
+                    <div class="Rcard">
+                        <div><img src="assets/yelp-1-q3z5wk0fqcrejs5a0ticvqbarqpzge3pnfpnh51slc.png" class="RB" alt="">
+                        </div>
+                        <div><img src="assets/5-stars-150x37.png" alt=""></div>
+                        <div class="px-4 text-justify">
+                            <p>I met Dr. and his staff back in 2014. Since this date, I've had two procedures.
+                                Dr. and his staff are very knowledgeable and they listen. There're a lot of
+                                doctors who perform the same procedures but I seek out the best doctors and Dr.
+                                is at the top of that list.</p>
+                        </div>
+                        <div><span class="text-primary">D.A.</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- videos -->
+    <div class="container mb-4" id="video">
+        <div class="row YT-video text-center">
+            <h2 class="my-4">Videos​</h2>
+            <div class="col-md-3">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/pQ2PIZ00KzI?si=uAxsSgVbg3OPHEKi"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <h4>Satya Hair Transplant Clinic </h4>
+            </div>
+            <div class="col-md-3">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/32bi9Lgaalo?si=NU1dhxJMVthlaRve"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <h4>Cost of Hair Transplant</h4>
+            </div>
+            <div class="col-md-3">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/HShO9Ct-T_M?si=5-qr9T1vB7YdNWNa"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <h4>FUE Hair Transplant Result</h4>
+            </div>
+            <div class="col-md-3">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/3XE1E1Vv95E?si=4_C7jlZ5pin6YQnf"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <h4>Hair Transplant Satya Clinic</h4>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ -->
+    <div class="bg-light py-5" id="faq">
+        <div class="container text-center">
+            <div class="row py-4">
+                <h2 class="mb-4">FAQs</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is the difference between Rogaine for men and Rogaine for women?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Rogaine, the brand name of generic minoxidil, comes in formulations for both men and
+                                women. The men’s versions come in a 5% solution and a 5% foam while women’s products are
+                                the 5% foam and 2% solution. Of these, the strongest and most effective is the 5% men’s
+                                solution. This is due to the inclusion of propylene glycol, which is a vehicle that
+                                helps the active ingredient, minoxidil, to more readily penetrate the scalp. As the
+                                other products do not contain propylene glycol, they may be slightly less effective.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is hair transplantation?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>A hair transplant is a surgical procedure in which hair is moved from the back
+                                    and/or sides of the scalp, where it is permanent (donor area), to areas that are
+                                    thinning or bald on the front, top, or crown of the scalp (recipient area). Once
+                                    transplanted, the hair will continue to grow for a person’s lifetime. At
+                                    Medical we perform the two most effective types of hair restoration procedures,
+                                    Follicular Unit Transplantation (FUT) and Follicular Unit Extraction (FUE). For the
+                                    latter, we use new robotic technology.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is Follicular Unit Transplantation (FUT)?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Follicular Unit Transplantation (FUT) is a hair restoration procedure in which
+                                naturally-occurring groups of one to four hairs, called follicular units, are
+                                transplanted from the donor area to the recipient area. In FUT, after the patient’s
+                                scalp is numbed, the doctor removes a thin strip of tissue from the back and/or sides of
+                                the scalp. The donor strip is then separated into hundreds to thousands of individual
+                                follicular units using precise stereo-microscopic dissection techniques. As the
+                                follicular unit grafts are being prepared, the doctor makes tiny slits in the scalp
+                                (recipient sites), into which the grafts are placed. If well executed, the use of
+                                follicular units ensures that the transplant results will look completely natural and be
+                                undetectable. Follicular Unit Transplantation was conceived by Dr. and first
+                                described in the medical literature in his landmark 1995 publication.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What is Follicular Unit Extraction (FUE)?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Follicular Unit Extraction (FUE) is a method of extracting, or “harvesting,” follicular
+                                units one-by-one directly from the scalp. In FUE, an instrument is used to make small,
+                                circular incisions in the skin around follicular units, separating them from the
+                                surrounding tissue. The follicular unit is then extracted (pulled) directly from the
+                                scalp, leaving a small open hole that heals with a small white mark. This method of
+                                donor harvesting is what differentiates the FUE procedure from Follicular Unit
+                                Transplantation (FUT), in which the donor hair is removed in a long strip that is
+                                dissected into individual follicular units under a stereo-microscope. The creation of
+                                recipient sites and the placing of follicular unit grafts are essentially the same in
+                                FUE and FUT procedures. The FUE technique was conceived by Dr. Ray Woods in the 1990s in
+                                Australia and was introduced into the medical literature by Rassman and in
+                                2002. In 2011, Dr. began performing FUE using robotic technology, and now all
+                                FUE hair transplants at Medical use the speed, precision, and consistency of
+                                the robotic hair transplant system.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Am I a candidate for a hair transplant?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The best way to find out is to be evaluated by a board certified dermatologist or
+                                plastic surgeon specializing in hair restoration. The answer will depend on the cause of
+                                your hair loss, your age, the stability of your donor supply, how extensive your hair
+                                loss is, your expectations and a number of other important factors that will be taken
+                                into account. Read more about Candidacy for Hair Transplant Surgery.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Should I choose FUT or FUE?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                In general, FUT yields the most donor hair. Therefore, the procedure is best suited for
+                                more extensive hair loss and in patients where the main concern is the maximum use of
+                                one’s donor supply. The hair is maximized because of the precise nature of
+                                stereo-microscopic dissection and the fact that all the hair is harvested from the
+                                mid-portion of the permanent zone where the hair is most dense and stable. A limitation
+                                of FUT is that it leaves a line scar in the donor area. With normal styling, this is
+                                easily covered with hair, but it precludes someone from wearing their hair very short.
+                                FUE is more appropriate for patients who would like to keep their hair very short or who
+                                can’t limit strenuous activities in the post-op period. In general, younger patients who
+                                need to keep their styling options flexible choose FUE, whereas those who desire the
+                                most coverage opt for FUT. Read a detailed comparison of FUT and FUE on our FUE Pros &
+                                Cons page.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="row footer1 d-flex justify-content-around ">
+            <div class="col-12  text-center py-3">
+                <div style=" width:90%; margin:0px auto; " class="text-start">
+
+                    <img src="assets/Satya-Final-logo-Bamboo.png" height="74" class="img-fluid" alt="" width="10%">
+                </div>
+            </div>
+            <div class="container" style="width: 90%;">
+                <div class="row">
+                    <div class="col-12 col-lg-2 text-light  ps-5 ps-md-0">
+                        <ul>
+                            <li class="list-none">
+                                <div><strong>Address</strong></div>
+                                <div>
+                                    <div>
+                                        <h4>Gurugram</h4>
+                                        <span><i class="fa-solid fa-phone"></i>+91-99995 70494</span>
+                                        <p>4301, Galleria Boulevard, opposite DLF Club,<br /> DLF Phase IV, Sector 28,
+                                            <br />Gurugram, Haryana 122009
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <h4>Pitampura</h4>
+                                        <span><i class="fa-solid fa-phone"></i>+91-99995 70494</span>
+                                        <p>Metro gate no.4, madhuban chowk,<br /> Block ED, Dakshini Pitampura,<br />
+                                            Pitampura, New Delhi, Delhi, 110034</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <div class="ps-1 pt-3" ><img src="./Images/APolicy.webp" alt="" width="165px"></div> -->
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-2 text-light  ps-5 ps-md-0">
+                        <ul style="    line-height: 40px;                        ">
+                            <li class="list-none"><strong>Service</strong></li>
+                            <!-- <li class="list-none">About</li> -->
+                            <li class="list-none">Consultations</li>
+                            <li class="list-none">Hair Transplants</li>
+                            <li class="list-none">Robotic FUE</li>
+                            <li class="list-none">Hair Loss</li>
+                            <li class="list-none">Photo Gallery</li>
+                            <li class="list-none">Video</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-4 text-light  ps-5 ps-md-0 foot-con">
+                        <h5 class="ps-5 my-3">Contact Us</h5>
+                        <form action="">
+                            <ul class="d-flex justify-content-center align-items-end flex-column">
+                                <li class="my-3 list-none ">Name <span class="text-danger">*</span> <input type="text">
+                                </li>
+                                <li class="my-3 list-none ">Email <span class="text-danger">*</span> <input
+                                        type="email">
+                                </li>
+                                <li class="my-3 list-none ">Phone <span class="text-danger">*</span> <input
+                                        type="number">
+                                </li>
+                                <li class="my-3 list-none">Comment <span class="text-danger">*</span> <textarea name=""
+                                        id="" cols="30" rows="3"></textarea></li>
+                                <div class=" my-3"> <button class="btn btn-outline-light " style="
+                  border-radius: 20px;">SEND</button></div>
+                            </ul>
+                        </form>
+                    </div>
+                    <div class="col-12 col-lg-4 ps-md-0 ps-3 text-center my-3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112010.09282088872!2d77.04694779726562!3d28.680210400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd88c7459e65%3A0x785491eebdef3b61!2sSatya%20Skin%20and%20Hair%20Transplant!5e0!3m2!1sen!2sin!4v1706021931900!5m2!1sen!2sin"
+                            width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 text-light">
+                <div class="ps-1 pt-3"><img src="./Images/APolicy.webp" alt="" width="165px"></div>
+
+            </div>
+            <div class="col-12 text-light">
+                <div class="ps-1 pt-3">
+                    <p></p>
+                </div>
+
+            </div>
+            <!-- <div class="col-12 text-light">
+                <div class="ps-1 pt-3 text-center">
+                    <p>
+                        Division of </p>
+                    <p><img src="./Images/ok3.png" alt="" width="240px;"></p>
+                </div>
+
+            </div> -->
+        </div>
+        <!-- <div class="footer_under_div1">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div2">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div3">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div4">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div5">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div6">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div7">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div8">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div9">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div10">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div11">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div12">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div13">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div>
+        <div class="footer_under_div14">
+            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
+        </div> -->
+    </div>
+</body>
+
+</html>
