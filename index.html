@@ -11,26 +11,29 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body style="overflow-x: hidden;">
     <!-- Header -->
     <div class="container-fluid bgHeader">
-        <div class="cburm d-none row py-3 d-md-flex align-itmes-center gap-2 justify-content-lg-between">
+        <div class="cburm d-none row d-md-flex align-itmes-center gap-2 justify-content-lg-between">
             <div class="col-lg-4 d-none d-lg-flex">
-                <img src="assets/Satya-Final-logo-Charcoal.png" height="20" width="20%" alt="" class="img-fluid mx-5"
-                    style="filter: invert(1);" />
+                <a href="index.html">
+                    <img src="assets/Satya-Final-logo-Bamboo.png" height="20" width="30%" alt=""
+                        class="img-fluid mx-5" />
+                </a>
             </div>
             <div class="col-lg-auto d-flex mx-5 col-12">
                 <div class="row d-flex align-items-center justify-content-around">
 
                     <div class="SHEDULE_A_CONSULT col-lg-auto col-6 d-flex justify-content-end align-items-center">
-                        <button class="button-71 text-light header_btn px-sm-4 py-sm-3 px-2 py-1">
+                        <button class="button-6 text-light header_btn px-sm-4 py-sm-3 px-2 py-1">
                             SCHEDULE A CONSULT
                         </button>
                     </div>
                     <div class="col-3 d-lg-flex d-none justify-content-center align-items-center">
-                        <button class="button-71 text-light header_btn px-3 py-3 PHOTO_ASSESMENT text-nowrap">
+                        <button class="button-6 text-light header_btn px-3 py-3 PHOTO_ASSESMENT text-nowrap">
                             PHOTO ASSESMENT
                         </button>
                     </div>
@@ -161,7 +164,8 @@
                     </form> -->
                 </div>
             </div>
-            <div class="neb col-12 d-none d-lg-flex justify-content-center text-light gap-5 pt-2">
+            <div class="neb col-12 d-none d-lg-flex justify-content-center text-light gap-5 py-2" id="stickyNavbar"
+                style="background-color: #c78853;">
                 <a href="#about">
                     About
                 </a>
@@ -184,7 +188,7 @@
                     <div class="col-lg-6 col-12 text-center my-3 d-flex justify-content-center align-items-center">
                         <div class="Hero_video"
                             style="  height: 300px; width:500px; box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; ">
-                            <video class="object-fit-cover" height="300px" width="400px" autoplay>
+                            <video class="object-fit-cover" height="300px" width="400px" autoplay muted loop>
                                 <source src="assets/MVI_9766.MP4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -196,16 +200,16 @@
 
                     <div class="col-6 d-flex justify-content-center align-items-center gap-3 gap-md-5">
                         <button
-                            class="button-71 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1">SHEDULE
+                            class="button-6 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1">SHEDULE
                             A
                             CONSULTAION</button>
                         <button
-                            class="button-71 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1 d-none d-md-flex">ABOUT
+                            class="button-6 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1 d-none d-md-flex">ABOUT
                             US</button>
                     </div>
                 </div>
                 <div class="row d-flex justify-content-around " id="about">
-                    <div class="col-md-6 text-center"><img src="assets/IMG_8687_prev_ui.png" alt=""
+                    <div class="col-md-6 text-center"><img src="assets/MamSir.png" alt=""
                             style="width:100%; min-width:300px;"></div>
                     <div class="col-md-6 ">
                         <div class="col-md-12 text-light order-first order-md-0 text-center">
@@ -403,8 +407,8 @@
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 What is the difference between Rogaine for men and Rogaine for women?
                             </button>
                         </h2>
@@ -540,90 +544,94 @@
     </div>
     <!-- Footer -->
     <div class="footer">
-        <div class="row footer1 d-flex justify-content-around ">
-            <div class="col-12  text-center py-3">
-                <div style=" width:90%; margin:0px auto; " class="text-start">
+        <div class="container">
+            <div class="row footer1 d-flex justify-content-around ">
+                <div class="col-12  text-center py-3">
+                    <div style=" width:90%; margin:0px auto; " class="text-start">
 
-                    <img src="assets/Satya-Final-logo-Bamboo.png" height="74" class="img-fluid" alt="" width="10%">
+                        <img src="assets/Satya-Final-logo-Bamboo.png" height="74" class="img-fluid" alt="" width="10%">
+                    </div>
                 </div>
-            </div>
-            <div class="container" style="width: 90%;">
-                <div class="row">
-                    <div class="col-12 col-lg-2 text-light  ps-5 ps-md-0">
-                        <ul>
-                            <li class="list-none">
-                                <div><strong>Address</strong></div>
-                                <div>
+                <div class="container-md">
+                    <div class="row">
+                        <div class="col-md-2 text-light  ps-5 ps-md-0">
+                            <ul>
+                                <li class="list-none">
+                                    <div><strong>Address</strong></div>
                                     <div>
-                                        <h4>Gurugram</h4>
-                                        <span><i class="fa-solid fa-phone"></i>+91-99995 70494</span>
-                                        <p>4301, Galleria Boulevard, opposite DLF Club,<br /> DLF Phase IV, Sector 28,
-                                            <br />Gurugram, Haryana 122009
-                                        </p>
+                                        <div>
+                                            <h4>Gurugram</h4>
+                                            <span><i class="fa-solid fa-phone"></i>+91-99995 70494</span>
+                                            <p>4301, Galleria Boulevard, opposite DLF Club,<br /> DLF Phase IV, Sector
+                                                28,
+                                                <br />Gurugram, Haryana 122009
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <h4>Pitampura</h4>
+                                            <span><i class="fa-solid fa-phone"></i>+91-99995 70494</span>
+                                            <p>Metro gate no.4, madhuban chowk,<br /> Block ED, Dakshini
+                                                Pitampura,<br />
+                                                Pitampura, New Delhi, Delhi, 110034</p>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <h4>Pitampura</h4>
-                                        <span><i class="fa-solid fa-phone"></i>+91-99995 70494</span>
-                                        <p>Metro gate no.4, madhuban chowk,<br /> Block ED, Dakshini Pitampura,<br />
-                                            Pitampura, New Delhi, Delhi, 110034</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- <div class="ps-1 pt-3" ><img src="./Images/APolicy.webp" alt="" width="165px"></div> -->
-                        </ul>
-                    </div>
-                    <div class="col-12 col-lg-2 text-light  ps-5 ps-md-0">
-                        <ul style="    line-height: 40px;                        ">
-                            <li class="list-none"><strong>Service</strong></li>
-                            <!-- <li class="list-none">About</li> -->
-                            <li class="list-none">Consultations</li>
-                            <li class="list-none">Hair Transplants</li>
-                            <li class="list-none">Robotic FUE</li>
-                            <li class="list-none">Hair Loss</li>
-                            <li class="list-none">Photo Gallery</li>
-                            <li class="list-none">Video</li>
-
-                        </ul>
-                    </div>
-                    <div class="col-12 col-lg-4 text-light  ps-5 ps-md-0 foot-con">
-                        <h5 class="ps-5 my-3">Contact Us</h5>
-                        <form action="">
-                            <ul class="d-flex justify-content-center align-items-end flex-column">
-                                <li class="my-3 list-none ">Name <span class="text-danger">*</span> <input type="text">
                                 </li>
-                                <li class="my-3 list-none ">Email <span class="text-danger">*</span> <input
-                                        type="email">
-                                </li>
-                                <li class="my-3 list-none ">Phone <span class="text-danger">*</span> <input
-                                        type="number">
-                                </li>
-                                <li class="my-3 list-none">Comment <span class="text-danger">*</span> <textarea name=""
-                                        id="" cols="30" rows="3"></textarea></li>
-                                <div class=" my-3"> <button class="btn btn-outline-light " style="
-                  border-radius: 20px;">SEND</button></div>
+                                <!-- <div class="ps-1 pt-3" ><img src="./Images/APolicy.webp" alt="" width="165px"></div> -->
                             </ul>
-                        </form>
+                        </div>
+                        <div class="col-md-2 text-light  ps-5 ps-md-0">
+                            <ul style="    line-height: 40px;                        ">
+                                <li class="list-none"><strong>Service</strong></li>
+                                <!-- <li class="list-none">About</li> -->
+                                <li class="list-none">Consultations</li>
+                                <li class="list-none">Hair Transplants</li>
+                                <li class="list-none">Robotic FUE</li>
+                                <li class="list-none">Hair Loss</li>
+                                <li class="list-none">Photo Gallery</li>
+                                <li class="list-none">Video</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-4 text-light  ps-5 ps-md-0 foot-con">
+                            <h5 class="ps-5 my-3">Contact Us</h5>
+                            <form action="">
+                                <ul class="d-flex justify-content-center align-items-end flex-column text-nowrap">
+                                    <li class="my-3 list-none ">Name <span class="text-danger">*</span> <input
+                                            type="text">
+                                    </li>
+                                    <li class="my-3 list-none ">Email <span class="text-danger">*</span> <input
+                                            type="email">
+                                    </li>
+                                    <li class="my-3 list-none ">Phone <span class="text-danger">*</span> <input
+                                            type="number">
+                                    </li>
+                                    <li class="my-3 list-none">Comment <span class="text-danger">*</span> <textarea
+                                            name="" id="" cols="30" rows="3"></textarea></li>
+                                    <div class=" my-3"> <button class="btn btn-outline-light " style="
+                  border-radius: 20px;">SEND</button></div>
+                                </ul>
+                            </form>
+                        </div>
+                        <div class="col-md-4 ps-md-0 ps-3 text-center my-3">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112010.09282088872!2d77.04694779726562!3d28.680210400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd88c7459e65%3A0x785491eebdef3b61!2sSatya%20Skin%20and%20Hair%20Transplant!5e0!3m2!1sen!2sin!4v1706021931900!5m2!1sen!2sin"
+                                width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
-                    <div class="col-12 col-lg-4 ps-md-0 ps-3 text-center my-3">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112010.09282088872!2d77.04694779726562!3d28.680210400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd88c7459e65%3A0x785491eebdef3b61!2sSatya%20Skin%20and%20Hair%20Transplant!5e0!3m2!1sen!2sin!4v1706021931900!5m2!1sen!2sin"
-                            width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <div class="col-12 text-light">
+                    <div class="ps-1 pt-3"><img src="./Images/APolicy.webp" alt="" width="165px"></div>
+
+                </div>
+                <div class="col-12 text-light">
+                    <div class="ps-1 pt-3">
+                        <p></p>
                     </div>
+
                 </div>
-
-            </div>
-            <div class="col-12 text-light">
-                <div class="ps-1 pt-3"><img src="./Images/APolicy.webp" alt="" width="165px"></div>
-
-            </div>
-            <div class="col-12 text-light">
-                <div class="ps-1 pt-3">
-                    <p></p>
-                </div>
-
-            </div>
-            <!-- <div class="col-12 text-light">
+                <!-- <div class="col-12 text-light">
                 <div class="ps-1 pt-3 text-center">
                     <p>
                         Division of </p>
@@ -631,49 +639,9 @@
                 </div>
 
             </div> -->
+            </div>
         </div>
-        <!-- <div class="footer_under_div1">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div2">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div3">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div4">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div5">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div6">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div7">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div8">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div9">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div10">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div11">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div12">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div13">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div>
-        <div class="footer_under_div14">
-            <img src="/Images/images.jpeg" alt="" width="150" height="75" data-id="38058" />
-        </div> -->
+
     </div>
 </body>
 
