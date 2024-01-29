@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
-  font-family: "Playfair Display", serif !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
 h2 {
@@ -67,7 +67,7 @@ h2 {
 }
 
 .footer1 {
-  background: url("./Images/footer-bg.png") !important;
+  /* background: url("./Images/footer-bg.png") !important; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -102,6 +102,47 @@ form textarea {
 }
 
 @media (max-width: 426px) {
+  .footer img {
+    width: 15rem;
+  }
+  .footer form input,
+  .footer form textarea {
+    width: 13rem;
+  }
+  .footer .container .row div {
+    padding: 0 !important;
+  }
+  #Why-Us p {
+    font-size: 12px;
+  }
+  #Why-Us {
+    margin: auto;
+    padding: 0 !important;
+  }
+  #Why-Us .container {
+    width: 100% !important;
+  }
+  #Why-Us .container,
+  #Why-Us .row {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .drs img {
+    width: 50%;
+    margin-top: 2rem;
+  }
+  iframe {
+    height: 200px;
+    width: -webkit-fill-available;
+  }
+  .Hero_video video {
+    width: 80%;
+  }
+  .bgHeader {
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    background-position: right;
+  }
   .SHEDULE_A_CONSULT button {
     font-size: 10px !important;
     padding: 9px 16px;
@@ -133,7 +174,7 @@ form textarea {
     /* width: 320px; */
   }
   .footer {
-    width: max-content;
+    /* width: max-content; */
   }
 }
 
@@ -390,7 +431,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .counter {
   font-size: 50px;
   margin-top: 10px;
-  color: #c78853;
+  color: #36312e;
 }
 
 .c-guide h5 {
@@ -431,4 +472,36 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 #container {
   /* Set a specific height for the container */
   height: 400px;
+}
+
+#faq .accordion-body {
+  text-align: justify;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #824322 !important;
+  background-color: #f8f9fa !important;
+  padding: 2rem;
+  border-radius: 50rem;
+  /* font-size: 10px; */
+}
+.swiper-pagination-clickable .swiper-pagination-bullet:active {
+  color: #824322 !important;
+}
+/* .swiper-button-prev {
+  top: -31.5rem !important;
+  left: 2rem !important;
+}
+.swiper-button-next {
+  top: -28rem !important;
+  left: 10rem !important;
+} */
+.swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  width: auto; /* Adjust the width as needed */
 }

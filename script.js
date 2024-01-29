@@ -29,3 +29,42 @@ counters.forEach((counter) => {
     updateCounter();
 });
 
+// swiper
+var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    breakpoints: {
+        // when window width is <= 576px
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        },
+        576: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        },
+        // when window width is <= 768px
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        },
+        // when window width is <= 992px
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 10
+        }
+    }
+});
