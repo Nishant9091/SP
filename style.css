@@ -102,6 +102,13 @@ form textarea {
 }
 
 @media (max-width: 426px) {
+  #consult form input,
+  #consult form textarea {
+    width: 15rem;
+  }
+  #Guidance h4 span {
+    font-size: 1rem !important;
+  }
   .footer img {
     width: 15rem;
   }
@@ -460,7 +467,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 .medic li,
 .donor li {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 30px;
 }
 .medic p,
