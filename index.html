@@ -30,6 +30,30 @@
 </head>
 
 <body style="overflow-x: hidden;">
+    <!-- floating icons -->
+    <div>
+        <div class="whatsapp">
+            <a href="https://wa.me/9773811194">
+                <div class="contact_icon">
+                    <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                </div>
+            </a></p>
+        </div>
+        <div class="consultant">
+            <a href="#consult">
+                <div class="contact_icon">
+                    <i class="fa-solid fa-calendar-days" style="color: #ffffff;"></i>
+                </div>
+            </a></p>
+        </div>
+        <div class="call">
+            <a href="tel:+919773811194">
+                <div class="contact_icon">
+                    <i class="fa-solid fa-phone" style="color: #ffffff;"></i>
+                </div>
+            </a></p>
+        </div>
+    </div>
     <!-- Header -->
     <div class="container-fluid bgHeader">
         <div class="cburm d-none row d-md-flex align-itmes-center gap-2 justify-content-lg-between">
@@ -41,17 +65,17 @@
             </div>
             <div class="col-lg-auto d-flex mx-5 col-12">
                 <div class="row d-flex align-items-center justify-content-around">
-
-                    <div class="SHEDULE_A_CONSULT col-lg-auto col-6 d-flex justify-content-end align-items-center">
-                        <button class="button-6 text-light header_btn px-sm-4 py-sm-3 px-2 py-1">
-                            SCHEDULE A CONSULT
-                        </button>
-                    </div>
                     <div class="col-3 d-lg-flex d-none justify-content-center align-items-center">
                         <button class="button-6 text-light header_btn px-3 py-3 PHOTO_ASSESMENT text-nowrap">
-                            PHOTO ASSESMENT
+                            +91-9773811194
                         </button>
                     </div>
+                    <div class="SHEDULE_A_CONSULT col-lg-auto col-6 d-flex justify-content-end align-items-center">
+                        <a href="#consult"> <button class="button-6 text-light header_btn px-sm-4 py-sm-3 px-2 py-1">
+                                SCHEDULE A CONSULT
+                            </button></a>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -90,10 +114,10 @@
                             </h1>
                         </div>
                         <div class="col-6 d-flex justify-content-center flex-column align-items-center ">
-                            <button
-                                class="button-6 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1 mt-5">SCHEDULE
-                                A
-                                CONSULTAION</button>
+                            <a href="#consult"> <button
+                                    class="button-6 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1 mt-5">SCHEDULE
+                                    A
+                                    CONSULTAION</button></a>
                             <!-- <button
                                         class="button-6 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1 d-none d-md-flex">ABOUT
                                         US</button> -->
@@ -163,6 +187,48 @@
             </div>
         </div>
     </div>
+    <!-- services -->
+    <div class="container swiper-container custom-swiper py-5">
+        <div class="d-flex justify-content-between align-items-center gap-2 mb-4">
+            <div class="swiper-button-prev position-static"></div>
+            <div class="swiper-button-next position-static"></div>
+        </div>
+        <div class="swiper-wrapper text-center">
+            <div class="swiper-slide">
+                <img src="assets/services/Beard.svg" alt="" width="80px" height="100px">
+                <h6>Beard</h6>
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/services/BHT.svg" alt="" width="80px" height="100px">
+                <h6>BHT</h6>
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/services/eyebrow_.svg" alt="" width="80px" height="100px">
+                <h6>eyebrow</h6>
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/services/Female.svg" alt="" width="80px" height="100px">
+                <h6>Female</h6>
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/services/FUE.svg" alt="" width="80px" height="100px">
+                <h6>FUE</h6>
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/services/Fut.svg" alt="" width="80px" height="100px">
+                <h6>Fut</h6>
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/services/Repair.svg" alt="" width="80px" height="100px">
+                <h6>Repair</h6>
+            </div>
+            <div class="swiper-slide">
+                <img src="assets/services/Synthetic.svg" alt="" width="80px" height="100px">
+                <h6>Synthetic</h6>
+            </div>
+        </div>
+        <!-- If we need navigation buttons -->
+    </div>
     <!-- Call To action -->
     <div class="bg-light p-0 p-md-5">
         <div class="text-center p-0 p-md-5 text-white" style="background-color: #36312E; ">
@@ -171,10 +237,10 @@
                 restoration
                 journey</button>
             <p> *Invest only 5 minutes, it can save you lifetime troubles</p>
-            <button
-                class="button-6 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1 mb-3 mb-md-0">SCHEDULE
-                A
-                CONSULTAION</button>
+            <a href="#consult"><button
+                    class="button-6 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1 mb-3 mb-md-0">SCHEDULE
+                    A
+                    CONSULTAION</button></a>
         </div>
     </div>
     <!-- Achivements -->
@@ -182,20 +248,20 @@
         <div class="row text-center p-5">
             <div class="col-md-3">
                 <!-- <div><i style="color: #824322;" class="fa-solid fs-2 fa-user"></i></div> -->
-                <div><img src="assets/achive/Happy.svg" alt="" class="w-25" /></div>
+                <div><img src="assets/achive/Happy.svg" alt="" height="60px" width="80px" /></div>
                 <div class="counter" data-target="265000"></div>
                 <!-- <span class="fs-3" style="color: #824322;"> 265K+</span> -->
                 <h2 class="fs-4" style="color: #36312E!important;"> Happy patients</h2>
             </div>
             <div class="col-md-3">
-                <div><img src="assets/achive/Hair Transpant.svg" alt="" class="w-25" /></div>
+                <div><img src="assets/achive/Hair Transpant.svg" alt="" height="60px" width="80px" /></div>
                 <!-- <div><i style="color: #824322;" class="fa-solid fs-2 fa-bed"></i></div> -->
                 <div class="counter" data-target="10000"></div>
                 <!-- <span class="fs-3" style="color: #824322;">10K+ </span> -->
                 <h2 class="fs-4" style="color: #36312E!important;">Hair Transplant Surgeries</h2>
             </div>
             <div class="col-md-3">
-                <div><img src="assets/achive/Corrective.svg" alt="" class="w-25" /></div>
+                <div><img src="assets/achive/Corrective.svg" alt="" height="60px" width="80px" /></div>
                 <!-- <div><i style="color: #824322;" class="fa-solid fs-2 fa-hospital"></i></div> -->
                 <div class="counter" data-target="1800"></div>
                 <!-- <span class="fs-3" style="color: #824322;"> 1800+ </span> -->
@@ -203,7 +269,7 @@
             </div>
             <div class="col-md-3">
                 <!-- <div><img src="assets/achive/Corrective.svg" alt="" class="w-25" /></div> -->
-                <div><img src="assets/achive/5 Stars.svg" alt="" class="w-25" /></div>
+                <div><img src="assets/achive/5 Stars.svg" alt="" height="60px" width="80px" /></div>
                 <div class="counter" data-target="20"></div>
                 <!-- <span class="fs-3" style="color: #824322;"> 20 + </span> -->
                 <h2 class="fs-4" style="color: #36312E!important;"> Years of Experience</h2>
@@ -216,11 +282,11 @@
             <div class="row text-center bg-light p-md-5 p-3 fw-bold">
                 <h2 class="fw-bold">"Any Information Which Makes You Think, Is The Right Information
                     & Which Doesn't Give You Time Is a Trap"</h2>
-                <p>Much of the online information about hair transplants only showcases results, hiding the real truth
+                <!-- <p>Much of the online information about hair transplants only showcases results, hiding the real truth
                     behind
                     them. This often leads to hasty decisions that you might regret later. Remember, a half-truth is the
                     most
-                    deceptive lie, leaving you trapped in uncertainty. Therefore</p>
+                    deceptive lie, leaving you trapped in uncertainty. Therefore</p> -->
                 <strong class="fs-3"> <em> " EMBRACE SATYA | EMBRACE TRUTH”</em></strong>
             </div>
         </div>
@@ -327,14 +393,14 @@
                 restoration
                 journey</button>
             <p> *Invest only 5 minutes, it can save you lifetime troubles</p>
-            <button
-                class="button-6 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1 mb-3 mb-md-0">SCHEDULE
-                A
-                CONSULTAION</button>
+            <a href="#consult"><button
+                    class="button-6 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1 mb-3 mb-md-0">SCHEDULE
+                    A
+                    CONSULTAION</button></a>
         </div>
     </div>
     <!-- DONOR -->
-    <div class="container py-5 donor">
+    <div class="container py-0 py-md-5 donor">
         <div class="row my-5">
             <div class="col-md-6">
                 <div id="carouselDonor" class="carousel slide" data-bs-ride="carousel">
@@ -391,7 +457,7 @@
         </div>
     </div>
     <!-- MEDICINE -->
-    <div class="bg-light py-5 medic">
+    <div class="bg-light py-0 py-md-5 medic">
         <div class="container">
             <div class="row my-5 flex-row-reverse">
                 <div class="col-md-6 m-auto">
@@ -461,7 +527,7 @@
         </div>
     </div>
     <!-- Sample Consult -->
-    <div class="container py-5 donor" id="Sample-Consult">
+    <div class="container py-0 py-md-5 donor" id="Sample-Consult">
         <div class="row my-5">
             <div class="col-md-6">
                 <div id="carouselConsult" class="carousel slide" data-bs-ride="carousel">
@@ -504,17 +570,17 @@
                 </h4>
             </div>
             <div class="col-md-6">
-                <h4>SAMPLE CONSULTATIONS <br>
-                    Correct information will set the right foundation
+                <h4>SAMPLE CONSULTATIONS </h4>
+                <h6 class="text-center"> Correct information will set the right foundation
                     of your Hair Restoration Journey <br>
-                    BENEFITS OF ONLINE & OFFLINE CONSULTATION
-                </h4>
+                    BENEFITS OF ONLINE & OFFLINE CONSULTATION</h6>
+
                 <ul>
-                    <li>Saves Time, Energy & Money</li>
-                    <li> Learn from mistakes which people have committed</li>
-                    <li>Set Realistic Expectations.</li>
-                    <li>Personalised Approach</li>
-                    <li>Transparent & Honest Assessment</li>
+                    <li style="line-height: 60px;">Saves Time, Energy & Money</li>
+                    <li style="line-height: 60px;"> Learn from mistakes which people have committed</li>
+                    <li style="line-height: 60px;">Set Realistic Expectations.</li>
+                    <li style="line-height: 60px;">Personalised Approach</li>
+                    <li style="line-height: 60px;">Transparent & Honest Assessment</li>
                 </ul>
 
             </div>
@@ -858,9 +924,10 @@
         <h3> NO MATTER YOUR AGE OR GRADE OF <span style="color: #c78853;">BALDNESS!</span></h3>
         <button class="btn btn-danger m-3 rounded-pill">  Yes! I want to plan my hair restoration journey</button>
         <p> *Invest only 5 minutes, it can save you lifetime troubles </p>
-        <button class="button-6 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1">SCHEDULE
-            A
-            CONSULTAION</button>
+        <a href="#consult"><button
+                class="button-6 SHEDULE_A_CONSULT text-light header_btn px-sm-4 py-sm-3 px-2 py-1">SCHEDULE
+                A
+                CONSULTAION</button></a>
     </div>
     <!-- FAQ -->
     <div class="bg-light py-5" id="faq">
@@ -1116,15 +1183,13 @@
                             <div>
                                 <div>
                                     <h4 class="my-2">Gurugram</h4>
-                                    <p>4301, Galleria Boulevard,<br /> DLF Phase IV, Sector
-                                        28,
-                                        <br />Gurugram
+                                    <p>4301, DLF phase 4, <br> Near Galleria, <br> Gurugram-122002
                                     </p>
                                 </div>
                                 <div>
                                     <h4 class="my-2">Pitampura</h4>
-                                    <p>Metro gate no.4,<br /> Block ED, Dakshini
-                                        Pitampura,Delhi</p>
+                                    <p>ED 38 /A Pitampura, <br> Near Pitampura, Madhuban Chowk, <br> Delhi, 110034,
+                                        India</p>
                                 </div>
                             </div>
                         </li>
@@ -1180,7 +1245,7 @@
         <div class="row p-4 justify-content-center">
             <div class="col-md-2 text-center"><img src="assets/accredations/AAAM.png" alt="" width="200px"></div>
             <div class="col-md-2 text-center"><img src="assets/accredations/ACS.png" alt="" width="200px"></div>
-            <div class="col-md-2 text-center"><img src="assets/accredations/aimi.png" alt="" width="200px"></div>
+            <div class="col-md-2 text-center mt-4"><img src="assets/accredations/aimi.png" alt="" width="200px"></div>
             <div class="col-md-2 text-center"><img src="assets/accredations/CDSI.png" alt="" width="200px"></div>
             <div class="col-md-2 text-center"><img src="assets/accredations/iadvl.png" alt="" width="200px"></div>
         </div>

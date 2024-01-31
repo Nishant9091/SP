@@ -102,6 +102,13 @@ form textarea {
 }
 
 @media (max-width: 426px) {
+  .counter {
+    font-size: 20px;
+  }
+  .drs,
+  .bgHeader button {
+    background: #36312e;
+  }
   #consult form input,
   #consult form textarea {
     width: 15rem;
@@ -436,7 +443,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 }
 
 .counter {
-  font-size: 50px;
+  font-size: 30px;
   margin-top: 10px;
   color: #36312e;
 }
@@ -448,7 +455,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .c-guide p {
   text-align: start;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 23px;
 }
 
@@ -511,4 +518,61 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .swiper-slide {
   width: auto; /* Adjust the width as needed */
+}
+
+/* whatsapp */
+
+.whatsapp,
+.consultant,
+.call {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.whatsapp {
+  bottom: 20rem;
+  right: 0rem;
+}
+.consultant {
+  bottom: 15rem;
+  right: 0;
+}
+.call {
+  bottom: 10rem;
+  right: 0;
+}
+@keyframes pulsing {
+  to {
+    box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+  }
+}
+
+.contact_icon {
+  background-color: #c78853;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translatey(0px);
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 0 0 #c78853;
+  -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  font-weight: normal;
+  font-family: sans-serif;
+  text-decoration: none !important;
+  transition: all 300ms ease-in-out;
 }

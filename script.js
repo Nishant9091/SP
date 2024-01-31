@@ -70,3 +70,46 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 
+var customSwiper = new Swiper('.custom-swiper', {
+    slidesPerView: 5, // Number of slides per view
+    spaceBetween: 20, // Space between slides
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+
+    autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    breakpoints: {
+        // when window width is <= 576px
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        },
+        576: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        },
+        // when window width is <= 768px
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 10
+        },
+        // when window width is <= 992px
+        992: {
+            slidesPerView: 4,
+            spaceBetween: 10
+        }
+    }
+});
